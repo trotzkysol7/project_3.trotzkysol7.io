@@ -1,13 +1,25 @@
 async function init() {
-    // Import the needed libraries.
-    await google.maps.importLibrary('maps');
-
-    // Access the map.
+    // Request the needed libraries.
+    const [{ AdvancedMarkerElement }] = await Promise.all([
+        google.maps.importLibrary('marker'),
+        google.maps.importLibrary('maps'),
+    ]);
+    // Get the gmp-map element.
     const mapElement = document.querySelector('gmp-map');
-    // Access the underlying map object.
+
+    // Get the inner map.
     const innerMap = mapElement.innerMap;
 
-    console.log({ mapElement, innerMap });
-}
+    // Set map options.
+    innerMap.setOptions({
+        mapTypeControl: false,
+    });
 
+    // Add a marker positioned at the map center (Uluru).
+    new AdvancedMarkerElement({
+        map: innerMap,
+        position: mapElement.center,
+        title: 'Uluru/Ayers Rock',
+    });
+}
 void init();
