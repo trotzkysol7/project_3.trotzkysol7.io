@@ -1,0 +1,67 @@
+/* THIS PART OF MY CODE IS GOING TO BE FIXED LAYOUT*/ 
+
+/*//////////////NAV BAR CSS///////////////////////*/
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #414ba4;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-align: center;
+  color: rgb(139, 146, 255);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+ background-color: #4b91ce;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+/*---------#1*----------*/
+body{  
+  background-color: #f0e6d2;
+}
+/*---------#2*----------*/
+img {
+    float: right;
+    padding-right: 70px;
+}
+/*---------#3*----------*/
+h1 {
+    font-family: 'Times New Roman', bold;
+    color: #070707;
+    text-align: center;
+    justify-content: center;
+}
+/*---------#4*----------*/
+h2{
+  font-family: 'Times New Roman', monospace;
+  font-size:15px;
+  color: #161515;
+}
+/*---------#5*----------*/
+li{
+  font-family: 'Times New Roman', monospace;
+  color: #161515;
+  margin-left: 50px;
+}
+/*---------#6*----------*/
+p{
+  font-family: 'Times New Roman', monospace;
+  color: #161515;
+  text-align: center;
+}
+
