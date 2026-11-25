@@ -1,3 +1,6 @@
+console.log("Init running");
+console.log(typeof google);
+
 async function init() {
     // Import the needed libraries.
     await google.maps.importLibrary('maps');
