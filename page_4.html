@@ -1,37 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Map sectionnn</title>
-    <link rel="stylesheet" href="css/fourth.css">
-    <script type="module" src="./maps.js"></script>
+<meta charset="utf-8">
+<title>Internet Technologies and Web Design</title>
+<link rel="stylesheet" href="css/fourth.css">
 </head>
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="index.html">✿ Home ✿</a></li>
-            <li><a href="page_2.html">✿ Resume ✿</a></li>
-            <li><a href="page_3.html">✿ Designs & Projects! ✿</a></li>
-            <li><a href="page_4.html">✿ Map of My Life! ✿</a></li>
-        </ul>
+      <ul> 
+        <li><a href="index.html"> ✿ Home ✿ </a></li>
+        <li><a href="page_2.html"> ✿ Resume ✿ </a></li>
+        <li><a href="page_3.html"> ✿ Designs & Projects! ✿</a></li>
+        <li><a href="page_4.html"> ✿ Map of My Life! ✿</a></li>
+       </ul>
     </nav>
 </header>
-
 <button id="myBtn">Questions?</button>
 <script>
 document.getElementById("myBtn").addEventListener("click", function() {
-  alert("If you have any questions, please reach out to me at jbarbosasolorzano@hawk.illinoistec.edu");
+  alert("If you have questions, contact me at: jbarbosasolorzano@hawk.illinoistech.edu");
 });
 </script>
-  <script>
-        (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-            key: "AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI"
-        });
-  </script>
-        <gmp-map center="-34.397,150.644" zoom="8" map-id="DEMO_MAP_ID">
-        </gmp-map>
+    <title>Add a Map</title>
 
+    <script type="module" src="/maps.js"></script>
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI", v: "weekly"});</script>
+  
+
+    <gmp-map center="-25.344,131.031" zoom="4" map-id="DEMO_MAP_ID">
+    </gmp-map>
+
+
+<gmp-map
+    center="-25.344,131.031"
+    zoom="4"
+    map-id="DEMO_MAP_ID">
+</gmp-map>
 
 </body>
 </html>
+
