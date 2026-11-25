@@ -13,9 +13,6 @@ async function init() {
     console.log({ mapElement, innerMap });
 }
 
-void init();
-typeof google
-
 
 ///////////
 const mapElement = document.querySelector('gmp-map');
