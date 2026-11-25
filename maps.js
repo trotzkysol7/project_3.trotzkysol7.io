@@ -34,9 +34,9 @@ async function init() {
     const flightPath = new Polyline({
         path: flightPlanCoordinates,
         geodesic: true,
-        strokeColor: '#FF0000',
+        strokeColor: '#f23bff',
         strokeOpacity: 1.0,
-        strokeWeight: 2,
+        strokeWeight: 3,
     });
 
     flightPath.setMap(innerMap);
