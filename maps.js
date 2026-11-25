@@ -14,3 +14,4 @@ async function init() {
 }
 
 void init();
+typeof google
