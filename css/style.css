@@ -32,6 +32,14 @@ body{
     background-color: #efd496;
     text-align: center;
 }
+
+/*MEDIA QUEWRY */
+@media (prefers-color-scheme: dark) {
+   body {
+    background-color: rgb(125, 122, 114);
+    color: white;
+  }
+}
 /*---------#2*----------*/
 h1{
     color: #882278;

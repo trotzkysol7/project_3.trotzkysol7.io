@@ -34,6 +34,14 @@ nav ul li a:hover {
 body{  
   background-color: #f0e6d2;
 }
+/*MEDIA QUEWRY */
+
+@media (prefers-color-scheme: dark) {
+   body {
+    background-color: rgb(77, 75, 68);
+    color : white;
+  }
+}
 /*---------#2*----------*/
 img {
     float: right;

@@ -33,7 +33,15 @@ nav ul li a:hover {
 body{  
     background-image: url("../media/dotz.jpg");
 }
-/*---------#2*----------*/
+/*---------#2 QUERY*----------*/
+@media screen and (orientation: landscape) {
+  body {
+    background-color: #efd496;
+  }
+}
+
+
+
 img{
   justify-content: center;
   margin-left:4.5%;
