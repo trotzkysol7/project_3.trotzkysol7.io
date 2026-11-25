@@ -34,7 +34,7 @@ nav ul li a:hover {
 body{  
   background-color: #f0e6d2;
 }
-/*MEDIA QUEWRY */
+/*MEDIA QUERY */
 
 @media (prefers-color-scheme: dark) {
    body {
