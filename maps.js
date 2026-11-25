@@ -29,4 +29,8 @@ async function init() {
         title: 'Uluru/Ayers Rock',
     });
 }
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("If you have questions, contact me at: jbarbosasolorzano@hawk.illinoistech.edu");
+});
+
 void init();
